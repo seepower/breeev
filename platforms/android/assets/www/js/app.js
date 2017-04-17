@@ -10,19 +10,19 @@ angular.module('starter', ['ionic'])
 $scope.openInExternalBrowser = function()
 {
  // Open in external browser
- window.open('http://google.com','_system','location=yes'); 
+ window.open('https://www.breeev.me','_system','location=yes'); 
 };
  
 $scope.openInAppBrowser = function()
 {
  // Open in app browser
- window.open('http://google.com','_blank'); 
+ window.open('https://www.breeev.me','_blank'); 
 };
  
 $scope.openCordovaWebView = function()
 {
  // Open cordova webview if the url is in the whitelist otherwise opens in app browser
- window.open('http://google.com','_self'); 
+ window.open('https://www.breeev.me','_self'); 
 };
  
 });
