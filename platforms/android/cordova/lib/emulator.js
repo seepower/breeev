@@ -116,7 +116,7 @@ module.exports.list_images_using_avdmanager = function () {
 };
 
 module.exports.list_images_using_android = function() {
-    return superspawn.spawn('android', ['list', 'avds'])
+    return superspawn.spawn('android', ['list', 'avd'])
     .then(function(output) {
         var response = output.split('\n');
         var emulator_list = [];

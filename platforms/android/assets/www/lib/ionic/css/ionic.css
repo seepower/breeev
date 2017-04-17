@@ -3782,7 +3782,7 @@ a.subdued {
 
 .action-sheet-title {
   padding: 16px;
-  color: #8f8f8f;
+  color: #97D700;
   text-align: center;
   font-size: 13px; }
 
@@ -8729,7 +8729,7 @@ progress {
         color: #fff; }
   .button.button-assertive {
     border-color: transparent;
-    background-color: #ef473a;
+    background-color: #006BA9;
     color: #fff; }
     .button.button-assertive:hover {
       color: #fff;
@@ -8741,16 +8741,17 @@ progress {
       border-color: transparent;
       background: none;
       box-shadow: none;
-      color: #ef473a; }
+      color: #006BA9; }
     .button.button-assertive.button-icon {
       border-color: transparent;
       background: none; }
     .button.button-assertive.button-outline {
-      border-color: #ef473a;
+      border-color: #006BA9;
       background: transparent;
-      color: #ef473a; }
+      color: #006BA9; }
       .button.button-assertive.button-outline.active, .button.button-assertive.button-outline.activated {
-        background-color: #ef473a;
+    background-color: #006BA9;
+        background-color: #006BA9;
         box-shadow: none;
         color: #fff; }
   .button.button-balanced {
